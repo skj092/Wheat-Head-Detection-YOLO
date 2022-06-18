@@ -29,4 +29,6 @@ YOLO needs dataset to be formated in a perticular format: The directory structur
 
 **Results**
 
+![image](https://user-images.githubusercontent.com/43055935/174430753-581a6621-570a-4984-a444-3b27155866de.png)
+
 ![d3ed0578-b1c3-4ecc-ace1-2151b379dea2](https://user-images.githubusercontent.com/43055935/173284100-08557a4d-897d-47de-8a7f-313c5c93513c.jpg)
