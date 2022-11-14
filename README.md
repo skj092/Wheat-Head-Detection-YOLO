@@ -14,13 +14,13 @@ YOLO needs dataset to be formated in a perticular format: The directory structur
 
 `Directory Structure`
 
-![image](https://user-imsaages.githubusercontent.com/43055935/173280016-975392ba-7e2e-41ac-94a9-5bfc539ba1cb.png)
+![image](https://user-images.githubusercontent.com/43055935/173280016-975392ba-7e2e-41ac-94a9-5bfc539ba1cb.png)
 
 
 
 **Architecture**
 
-<img width="700" alt="yolo" src="https://user-images.githubusercontent.com/43055935/174430508-b6f573ab-1f69-421e-854d-914b2f2a5cdd.png">
+<img width="700" alt="yolo" src="https://user-images3.githubusercontent.com/43055935/174430508-b6f573ab-1f69-421e-854d-914b2f2a5cdd.png">
 
 * This architecture takes an image as input and resizes it to 448*448 by keeping the aspect ratio same and performing padding.
 * This image is then passed in the CNN network. This model has 24 convolution layers, 4 max-pooling layers followed by 2 fully connected layers. For the reduction of the number of layers (Channels), we use 1*1 convolution that is followed by 3*3 convolution. Notice that the last layer of YOLO predicts a cuboidal output. This is done by generating (1, 1470) from final fully connected layer and reshaping it to size (7, 7, 30). 
